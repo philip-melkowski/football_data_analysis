@@ -1,5 +1,5 @@
 # shows Thiery Henry's all passes during the game
-
+#if you want to change the player for which this is done then just change the value of variable 'player'
 
 import json
 
@@ -13,6 +13,7 @@ pitchWidthY = 80
 match_id = '3749246'
 home_team = 'Arsenal'
 away_team = 'Manchester United'
+player = 'Thierry Henry'
 file_name = match_id + '.json'
 from pathlib import Path
 
@@ -27,7 +28,7 @@ print(df.columns.tolist())
 
 # obtaining Thierry Henry's passes
 
-passes = df[np.logical_and(df['type_name'] == 'Pass', df['player_name'] == 'Thierry Henry')]
+passes = df[np.logical_and(df['type_name'] == 'Pass', df['player_name'] == player)]
 print(passes.columns.tolist())
 print(len(passes))  # Thierry Henry made 26 passes that game.
 
