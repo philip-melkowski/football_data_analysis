@@ -1,0 +1,12 @@
+The data for this mini project is from StatBomb's free to use Data available on their GitHub: https://github.com/statsbomb/open-data
+
+The projects are inspired the by YouTube channel 'Friends of Tracking'.
+
+One file is supposed to visualize all the shots taken in the match between Arsenal and Manchester United on Sun 28 Mar 2004 at Highbury. The xG (expected goal index)
+of each shot is taken into consideration in the visualization.
+
+The other file is supposed to show all of Thierry Henry's passes from the same match. The circle show the initial position of the ball and the arrows show where the ball
+ended up after the pass.
+
+The 'FCPython' module required to draw the pitch is from: https://github.com/Friends-of-Tracking-Data-FoTD/SoccermaticsForPython 
+All credits go to the authors.
