@@ -13,7 +13,7 @@ away_team = 'Manchester United'
 file_name = match_id + '.json'
 from pathlib import Path
 
-with open(Path(f'../open-data-master/data/events/{file_name}')) as data_file:
+with open(Path(f'../{file_name}')) as data_file:
     data = json.load(data_file)
 
 from pandas import json_normalize
